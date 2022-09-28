@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Kumbh+Sans&family=Montserrat&family=Orbitron&family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <main>
+      <picture>
+        <source
+          media="(min-width: 620px)"
+          srcset="/images/image-equilibrium.jpg"
+        />
+        <source
+          media="(min-width: 620px)"
+          srcset="/design/mobaile-design.jpg"
+        />
+        <img class="pic" src="/images/image-equilibrium.jpg" alt="logo" />
+      </picture>
+
+      <h1>Equilibrium #3429</h1>
+      <h2>Our Equilibrium collection promotes balance and calm.</h2>
+
+      <div class="crypto">
+        <h3 class="ETH">
+          <img src="/images/icon-ethereum.svg" alt="Ethreum" /> 0.041 ETH
+        </h3>
+
+        <h3 class="CL">
+          <img src="/images/icon-clock.svg" alt="Cloak" class="cloak" /> 3 days
+          left
+        </h3>
+      </div>
+
+      <div class="guy">
+        <img src="/images/image-avatar.png" alt="Avatar" class="avartar" />
+        <h4><span>Creation of</span> Jules Wyvern</h4>
+      </div>
+    </main>
+  </body>
+</html>

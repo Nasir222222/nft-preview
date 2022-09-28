@@ -1,0 +1,74 @@
+body {
+  margin: 100px auto;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: lighter;
+}
+
+main {
+   background-color: aqua;
+   padding-right: 5px;
+   width: 325px;
+   margin: 0 auto;
+   padding: 20px;
+   border-radius: 10px;
+   background-color: hsl(216, 50%, 16%);
+}
+
+
+.pic,
+picture {
+  width: 330px;
+  border-radius: 10px;
+}
+
+.crypto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 25px;
+  border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+
+.CL {
+  color: hsl(215, 51%, 70%);
+}
+
+span{
+    color:hsl(215, 51%, 70%) ;
+}
+
+.days {
+  display: inline-flex;
+}
+
+h2 {
+  font-size: 20px;
+  color: hsl(215, 51%, 70%);
+}
+
+.ETH{
+    color: hsl(178, 100%, 50%);
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.guy {
+  display: flex;
+  align-items: center;
+}
+
+.avartar {
+  width: 40px;
+  height: 40px;
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+h4 {
+  margin-left: 20px;
+}
+
+
